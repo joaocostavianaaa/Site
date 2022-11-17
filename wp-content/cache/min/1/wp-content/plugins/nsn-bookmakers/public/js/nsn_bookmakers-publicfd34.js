@@ -1,0 +1,2 @@
+(function($){'use strict';$(function(){let copyClass=document.querySelectorAll('.copyjs');let clipboardJS=new ClipboardJS(copyClass);clipboardJS.on('success',function(e){$('.copyjs .helper').html('Click to copy !')
+$(e.trigger).find('.helper').html('Copied !')})})})(jQuery)

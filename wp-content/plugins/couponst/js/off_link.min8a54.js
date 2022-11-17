@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(n){for(var t=document.getElementsByClassName("offhref"),e=0;e<t.length;e++)t[e].addEventListener("click",myFunction,!1)});var myFunction=function(){var n=this.getAttribute("data-src");window.open(decodeURIComponent(window.atob(n)))};
